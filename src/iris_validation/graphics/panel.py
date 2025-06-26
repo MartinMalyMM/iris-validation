@@ -265,13 +265,13 @@ class Panel:
                                    font_size=view_title_font,
                                    font_family='Arial'))
 
-        self.dwg.add(self.dwg.text(text=self.custom_labels['Previous'],
+        self.dwg.add(self.dwg.text(text=self.custom_labels['Latest'],
                                    insert=(chain_view_bounds[2]-210, chain_view_bounds[1]+20),
                                    font_size=16,
                                    style='text-align: right;',
                                    font_family='Arial'))
 
-        self.dwg.add(self.dwg.text(text=self.custom_labels['Latest'],
+        self.dwg.add(self.dwg.text(text=self.custom_labels['Previous'],
                                    insert=(chain_view_bounds[2]-55, chain_view_bounds[1]+20),
                                    font_size=16,
                                    style='text-align: left;',
